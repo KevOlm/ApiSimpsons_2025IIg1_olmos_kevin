@@ -1,6 +1,6 @@
 {
   "name": "apisimpsons-2025iig1-olmos-kevin",
-  "homepage": "https://kevolm.github.io/ApiSimpsons-2025IIG1-Olmos-Kevin/",
+  "homepage": "https://kevolm.github.io/ApiSimpsons_2025IIg1_olmos_kevin/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",

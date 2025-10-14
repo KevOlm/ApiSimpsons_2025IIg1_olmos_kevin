@@ -20,7 +20,7 @@ const Card_character = ({character}) => {
           alt={character ? character.name : 'Unknown'}
           sx={{ objectFit: 'contain' }}
         />
-        <CardContent sx={{ backgroundColor: '#fdff9aff', height: 115 , textAlign: 'center' , textAlign: 'center'}}> 
+        <CardContent sx={{ backgroundColor: '#fdff9aff', height: 115 , textAlign: 'center'}}> 
           <Typography gutterBottom variant="h6" component="div">
             {character ? character.name : 'Unknown'}
           </Typography>

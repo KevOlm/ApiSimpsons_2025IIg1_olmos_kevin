@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 
 import Home from './pages/Home/Home'
 import Characters from './pages/Characters/Characters'
@@ -13,7 +13,7 @@ import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
-    <Router>
+    <>
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -24,7 +24,7 @@ const App = () => {
         <Route path='/characters_dsc' element={<Characters_dsc />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   )
 }
 

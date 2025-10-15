@@ -5,6 +5,7 @@ import Background from '../../assets/img/char_background.jpg'
 
 import Card_character from '../../components/Card_character/Card_character'
 import BasicPagination from '../../components/Pagination/Pagination'
+import BarSearch from '../../components/BarSearch/BarSearch'
 
 const Characters = () => {
     const [characters, setCharacters] = useState([])
@@ -24,6 +25,7 @@ const Characters = () => {
     return (
         <div className='characters'>
             <img className='background' src={Background} alt="Background" />
+            <BarSearch />
             <main className='main_char'>
                 {characters.length > 0 ? (
                     characters.map(character => (

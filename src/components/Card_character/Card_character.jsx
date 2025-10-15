@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 const Card_character = ({character}) => {
   return (
     <Grow in={true} timeout={1000}>
-    <Card sx={{ width: 300, height: 360 }}>
+    <Card sx={{ width: 300, height: 360 }} data-name={character ? character.name.toLowerCase() : 'unknown'}>
         <CardMedia
           component="img"
           height="200"

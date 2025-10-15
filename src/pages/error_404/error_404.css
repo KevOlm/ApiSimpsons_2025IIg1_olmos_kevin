@@ -1,0 +1,32 @@
+.Error{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.background_error{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.background_error img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.error_title{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
